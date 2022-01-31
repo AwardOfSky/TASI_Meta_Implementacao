@@ -2,7 +2,7 @@
  
 ## Instruções:
 
-Para correr o modelo proposto basta correr em linha de comando o nome do ficheiro Python principal "tf_gp_dcgan.py" seguido de um argumento para o dígito
+Para correr o modelo proposto basta executar em linha de comando o nome do ficheiro Python principal "tf_gp_dcgan.py" seguido de um argumento para o dígito
 a ser gerado pelo modelo e o nome da pasta para guardar os resultados da experiência.
 Segue um comando exemplo:
 
