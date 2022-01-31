@@ -1,0 +1,10 @@
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 0 dcgan_0_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 1 dcgan_1_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 2 dcgan_2_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 3 dcgan_3_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 4 dcgan_4_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 5 dcgan_5_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 6 dcgan_6_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 7 dcgan_7_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 8 dcgan_8_5epochs
+CUDA_VISIBLE_DEVICES=1 python dcgan.py 9 dcgan_9_5epochs
