@@ -1,5 +1,3 @@
-# TASI Meta de Implementaão
- 
 ## Instruções:
 
 Para correr o modelo proposto basta executar em linha de comando o nome do ficheiro Python principal "tf_gp_dcgan.py" seguido de um argumento para o dígito
@@ -88,26 +86,32 @@ população inicial gerada também aleatoriamente com exceção de 1 indíviduo 
 
 Os resultados do treino mostram claramente que é possível evoluir dígitos mais simples (como o 0 e o 8).
 
-[mostrar imagens]
+<img src="/imagens/zeros.png" alt="alt text" width="800">
+<img src="/imagens/oitos.png" alt="alt text" width="800">
 
 No entanto, algumas das populações geradas nesta fase inicial mostraram-se também bastante aleatórias.
 
-[mostrar mais imagens As e space invaders]
+<img src="/imagens/as.png" alt="alt text" width="800">
+<img src="/imagens/spaceinvaders.png" alt="alt text" width="800">
 
 A primeira hipótese considerada para este resultado prende-se com o facto de terem sido evoluídos todos os dígitos.
 Para testar esta hipótese, consideramos o mesmo setup experimental, mas em vez de serem testados todos os dígitos de uma só vez, cada dígito foi testado individualmente.
 Neste último teste os resultados foram consideravelmente melhores já que foram evoluídos artifactos para quase todos os dígitos com relativo sucesso.
 
-[mostrar mais imagens boas]
+<img src="/imagens/2s.png" alt="alt text" width="800">
+<img src="/imagens/5s.png" alt="alt text" width="800">
+<img src="/imagens/7s.png" alt="alt text" width="800">
+<img src="/imagens/8sbons.png" alt="alt text" width="800">
 
 Numa fase posterior, e para completar a fase experimental, o modelo proposto foi comparado a uma DCGAN normal:
 
-[resultados de avaliação para DCGAN]
+<img src="/imagens/gan_fail.png" alt="alt text" width="800">
 
 Para o modelo DCGAN pode-se verificar que 5 épocas não é suficiente para gerar todos os dígitos.
 Comparação da loss do discriminador para os dois modelos:
 
-[imagem loss]
+<img src="/imagens/l4_dcgan.png" alt="alt text" width="400">
+<img src="/imagens/l4_GPDCGAN.png" alt="alt text" width="400">
 
 
 ## Conclusão:
