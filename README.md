@@ -86,32 +86,31 @@ população inicial gerada também aleatoriamente com exceção de 1 indíviduo 
 
 Os resultados do treino mostram claramente que é possível evoluir dígitos mais simples (como o 0 e o 8).
 
-<img src="/imagens/zeros.png" alt="alt text" width="800">
-<img src="/imagens/oitos.png" alt="alt text" width="800">
+<img src="/imagens/zeros.png" alt="alt text" width="600">
+<img src="/imagens/oitos.png" alt="alt text" width="600">
 
 No entanto, algumas das populações geradas nesta fase inicial mostraram-se também bastante aleatórias.
 
-<img src="/imagens/as.png" alt="alt text" width="800">
-<img src="/imagens/spaceinvaders.png" alt="alt text" width="800">
+<img src="/imagens/as.png" alt="alt text" width="600">
+<img src="/imagens/spaceinvaders.png" alt="alt text" width="600">
 
 A primeira hipótese considerada para este resultado prende-se com o facto de terem sido evoluídos todos os dígitos.
 Para testar esta hipótese, consideramos o mesmo setup experimental, mas em vez de serem testados todos os dígitos de uma só vez, cada dígito foi testado individualmente.
 Neste último teste os resultados foram consideravelmente melhores já que foram evoluídos artifactos para quase todos os dígitos com relativo sucesso.
 
-<img src="/imagens/2s.png" alt="alt text" width="800">
-<img src="/imagens/5s.png" alt="alt text" width="800">
-<img src="/imagens/7s.png" alt="alt text" width="800">
-<img src="/imagens/8sbons.png" alt="alt text" width="800">
+<img src="/imagens/2s.png" alt="alt text" width="600">
+<img src="/imagens/5s.png" alt="alt text" width="600">
+<img src="/imagens/7s.png" alt="alt text" width="600">
+<img src="/imagens/8sbons.png" alt="alt text" width="600">
+<img src="/imagens/l4_GPDCGAN.svg" alt="alt text" width="600">
 
 Numa fase posterior, e para completar a fase experimental, o modelo proposto foi comparado a uma DCGAN normal:
 
-<img src="/imagens/gan_fail.png" alt="alt text" width="800">
+<img src="/imagens/gan_fail.png" alt="alt text" width="600">
+<img src="/imagens/l4_dcgan.svg" alt="alt text" width="600">
 
 Para o modelo DCGAN pode-se verificar que 5 épocas não é suficiente para gerar todos os dígitos.
 Comparação da loss do discriminador para os dois modelos:
-
-<img src="/imagens/l4_dcgan.svg" alt="alt text" width="400">
-<img src="/imagens/l4_GPDCGAN.svg" alt="alt text" width="400">
 
 
 ## Conclusão:
