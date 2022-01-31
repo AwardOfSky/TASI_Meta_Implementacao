@@ -10,7 +10,7 @@ Segue um comando exemplo:
 python tf_gp_dcgan.py 7 digito_7
 ```
 
-Este comando cria uma pasta chamada *digito_7 com os resultados de evolução do modelo principal para o dígito 4, onde "*" é o prefixo da data da experiência. 
+Este comando cria uma pasta chamada »digito_7 com os resultados de evolução do modelo principal para o dígito 4, onde "»" é o prefixo da data da experiência. 
 Ambos os argumentos são opcionais: o default para o primeiro argumento é o dígito 1 e se o nome da pasta não foi dada, o nome da pasta é simplesmente a data da experiência.
 
 Para comparação, é também incluído um modelo Rede Adversarial Generativa Convolucional Profunda (DCGAN) convencional adaptado do site: https://www.tensorflow.org/tutorials/generative/dcgan.
@@ -22,8 +22,8 @@ Comando exemplo:
 python dcgan.py 7 digito_7
 ```
 
-Este comando cria uma pasta chamada *digito_7 com os resultados de evolução do modelo tradicional para o dígito 7.
-Mais uma vez, "*" é o prefixo utilizado pela implementação.
+Este comando cria uma pasta chamada »digito_7 com os resultados de evolução do modelo tradicional para o dígito 7.
+Mais uma vez, "»" é o prefixo utilizado pela implementação.
 
 É ainda disponibilizado um script linux (.sh) que corre todos os testes para todos os dois modelos e para todos os dígitos.
 Este script tem o nome: "all_tests.sh".
