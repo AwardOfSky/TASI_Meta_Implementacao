@@ -123,7 +123,7 @@ no modelo proposto é possível alcançar resultados bastante encorajadores.
 
 No entanto, como podemos comprovar ao correr o modelo, o tempo de execução para o modelo proposto é bastante maior já que a evolução de expressões é uma tarefa computacionalmente dispendiosa.
 No entanto, face a estes resultados preliminares, podemos concluir que este modelo é uma abordagem que deve ser considerada futuramente.
-Para além do mais, com avanços em técnicas de paralelização de hardware, é possível que Computação Evolucionária volte a ser a técnica preferencial para a geração de imagens.
+Para além do mais, com avanços em técnicas de paralelização de hardware, é possível que Computação Evolucionária volte a ser a técnica preferencial para a geração de imagens em Inteligência Artificial.
 
 No que toca a trabalho futuro, uma funcionalidade crucial no modelo, e o próximo passo no desenvolvimento deste projeto prende-se com a incorporação de uma solução para agragar as expressões simbólicas a serem evoluídas num espaço latente organizado, possivelmente
 com recurso a arquivos de soluções ou a autoencoders variacionais (ver artigo da primeira meta).
