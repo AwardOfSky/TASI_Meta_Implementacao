@@ -110,8 +110,8 @@ Numa fase posterior, e para completar a fase experimental, o modelo proposto foi
 Para o modelo DCGAN pode-se verificar que 5 épocas não é suficiente para gerar todos os dígitos.
 Comparação da loss do discriminador para os dois modelos:
 
-<img src="/imagens/l4_dcgan.png" alt="alt text" width="400">
-<img src="/imagens/l4_GPDCGAN.png" alt="alt text" width="400">
+<img src="/imagens/l4_dcgan.svg" alt="alt text" width="400">
+<img src="/imagens/l4_GPDCGAN.svg" alt="alt text" width="400">
 
 
 ## Conclusão:
