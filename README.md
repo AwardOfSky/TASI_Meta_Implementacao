@@ -116,7 +116,7 @@ Comparação da loss do discriminador para os dois modelos:
 ## Conclusão:
 
 A evolução de expressões simbólicas em modelos adversariais é algo bastante inexplorado na literatura até à data.
-Este trabalho serve como uma prova de conceito do facto de ser possível evoluir dígitos 
+Este trabalho serve como uma prova de conceito do facto de ser possível evoluir dígitos neste contexto.
 
 Os resultados mostram claramente que, ao passo que em 5 épocas não é suficiente para serem gerados dígitos no modelo original,
 no modelo proposto é possível alcançar resultados bastante encorajadores.
